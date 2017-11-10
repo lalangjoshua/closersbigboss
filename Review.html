@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+div {background-color:#CC9999;
+		height:100px;
+		}
+a {text-decoration:none}
+
+a:hover{background-color:#CCFFFF}
+
+</style>
+</head>
+<body>
+
+
+
+<header>
+   <h1>CLOSERS</h1>
+</header>
+  
+<nav>
+<ul>
+	<li><a href="Home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+	<li><a href="Character.html">Character</a> </li>
+    <li><a href="Register.html">Register</a></li>
+    <li><a href="Login.html">Login</a> </li>
+	<li><a href="Review.Html">Review</a> </li>
+</ul>
+</nav>
+
+<article>
+<form action="" method="get">
+<fieldset>
+<legend>Your Details </legend>
+<table border="0"width="100% ">
+	
+
+		<td><b>Name </b><td><input size="50"  type="text" name="username"/></td></td><tr/>
+		<td><b>E-Mail</b><td><input size="50" type="mail" name="mypassword"/></td></td><tr/>
+
+   
+  </table>
+  
+	
+</fieldset></br>
+
+<fieldset>
+<legend>Your Review:</legend>
+<p><b>What do you think about us?</b></p>
+<td><b><img src="IMAGE/closer2.png" align="right" width="50%" height="40%"></b></td>
+<select name="referrer" id="hear-about">
+<option value="excellent">Excellent</option>
+<option value="goodood">Good</option>
+<option value="great">Great</option>
+<option value="other">Other</option>
+</select></p>
+
+<p><b>Do you like this game??</b><br/>
+<input type="radio" name="rating" value="yes"/>Yes
+<input type="radio" name="rating" value="no"/>No
+<input type="radio" name="rating" value="maybe"/>Maybe
+</p>
+
+<p><b>Comments:</br></b>
+<textarea rows="4" cols="40" id="comments"></textarea></p>
+<input type="checkbox" name="subscribe" checked="checked"/>
+Sign me up for email updates
+<p></p>
+<p></p>
+
+<!-- Trigger the modal with a button 1 -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Mymodal1">Submit</button>
+
+
+<!-- Trigger the modal with a button 2 -->
+<button type="reset" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Mymodal2">Cancel</button>
+
+<!-- Modal 1 -->
+<div id="Mymodal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+  
+  <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="reset" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Review Submitted!!</h4>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+</fieldset>
+
+
+<p><button><a href="Home.html">Back to Home</a></button></p>
+</article>
+
+	
+<footer>Copyright &copy; Andibigboss.com</footer>
+
+</div>
+
+</body>
+</html>

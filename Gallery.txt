@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+div {background-color:#CC9999;
+		height:100px;
+		}
+a {text-decoration:none}
+
+a:hover{background-color:#CCFFFF}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>CLOSERS</h1>
+</header>
+  
+<nav>
+<ul>
+	<li><a href="Home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+	<li><a href="Character.html">Character</a> </li>
+    <li><a href="Register.html">Register</a></li>
+    <li><a href="Login.html">Login</a> </li>
+	<li><a href="Review.Html">Review</a> </li>
+	
+</ul>
+</nav>
+
+<article>
+	<tr>
+	<th colspan="2" bgcolor="grey"><font face="arial" >
+	<marquee direction="alternate"><h1>Welcome to Closers World</h1></marquee></th>
+</tr>
+
+			
+
+	<center><video width="1000" height="500" controls  autoplay>
+	<source src="VIDEO/CLOSERS OP - Close The World (HQ) - YouTube.mp4" type="video/mp4">
+	</video></center>
+	
+					
+
+	
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	
+	
+
+
+	
+</article>
+
+	
+<footer>Copyright &copy; Andibigboss.com</footer>
+
+</div>
+
+</body>
+</html>
